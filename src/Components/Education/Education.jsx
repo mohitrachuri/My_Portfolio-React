@@ -3,14 +3,17 @@ import '../Education/Education.css'
 import UMD from '../../Assets/UMD.jpg'
 import SRM from '../../Assets/SRM.jpg'
 
-// import Swiper core and required modules
-import { Pagination } from 'swiper';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/pagination";
+
+
+// import required modules
+import { Pagination } from "swiper";
 
 const Education = () => {
   return (
@@ -40,6 +43,65 @@ const Education = () => {
       
       
       </Swiper> */}
+
+      {/* <Swiper
+        pagination={{
+          dynamicBullets: true,
+        }}
+        modules={[Pagination]}
+        className="edu__container"
+      >
+        <SwiperSlide className='edu'>
+        <div className="univ__avatar">
+            <img src={UMD} alt='UMD'/>
+          </div>
+            <h4 className='univ__name'>University Of Maryland</h4>
+            <small className='univ__course'>Masters in Software Engineering</small>
+            <p className='univ__info'>I am currently pursuing my Maters.</p>
+        </SwiperSlide>
+
+        <SwiperSlide className='edu'>
+        <div className="univ__avatar">
+            <img src={SRM} alt='SRM'/>
+          </div>
+            <h4 className='univ__name'>SRM University</h4>
+            <small className='univ__course'>Bachelor's in Electronics and Communication Engineering</small>
+            <p className='univ__info'>I completed by bachelor's.</p>
+        </SwiperSlide>
+      </Swiper> */}
+
+<>
+      <Swiper
+        pagination={{
+          dynamicBullets: true,
+        }}
+        modules={[Pagination]}
+        className='edu__container'
+      >
+        <SwiperSlide>
+        <article className='edu'>
+        <div className="univ__avatar">
+            <img src={UMD} alt='UMD'/>
+          </div>
+            <h4 className='univ__name'>University Of Maryland</h4>
+            <small className='univ__course'>Masters in Software Engineering</small>
+            <p className='univ__info'>I am currently pursuing my Maters.</p>
+          </article>
+        </SwiperSlide>
+        
+        <SwiperSlide>
+          <article className='edu'>
+        <div className="univ__avatar">
+            <img src={SRM} alt='SRM'/>
+          </div>
+            <h4 className='univ__name'>SRM University</h4>
+            <small className='univ__course'>Bachelor's in Electronics and Communication Engineering</small>
+            <p className='univ__info'>I completed by bachelor's.</p>
+            </article>
+        </SwiperSlide>
+      </Swiper>
+    </>
+
     </section>
   )
 }
