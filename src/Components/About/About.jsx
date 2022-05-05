@@ -29,7 +29,7 @@ const About = () => {
           <article className='about__card'>
             <SiMusicbrainz className='about__Icon'/>
             <h5>Skills</h5>
-            <small>Web Development, Data Science, Machine Learning</small>
+            <small>Full Stack Development, Data Science, Machine Learning</small>
           </article>
 
           <article className='about__card'>

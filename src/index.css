@@ -1,5 +1,5 @@
 /* ============ This css is used for the entire website =============== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); /* Google Fonts Import Link*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"); /* Google Fonts Import Link*/
 
 /* ================= General colors and container sizes are defined ========== */
 * {
@@ -40,7 +40,7 @@ html {
 /* ========= CSS for Font Styles ========== */
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
@@ -52,7 +52,11 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 500;
 }
 
@@ -65,7 +69,8 @@ section {
   /* height: 100vh;*/
 }
 
-section > h2, section h5 {
+section > h2,
+section h5 {
   text-align: center;
   color: var(--color-light);
 }
@@ -134,5 +139,12 @@ img {
   }
   section > h2 {
     margin-top: 2rem;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
   }
 }

@@ -31,3 +31,33 @@ nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
 }
+
+/* =========== Media Queries (Small Devices Ex: Mobile Devices) ========== */
+
+@media screen and (max-width: 600px) {
+
+    nav{
+        background: rgba(0, 0, 0, 0.3);
+        width: 100%;
+        display: block;
+        padding: 0.7rem 1.7rem;
+        z-index: 2;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 1.5rem;
+        display: flex;
+        gap: 0.8rem;
+        border-radius: 3rem;
+        backdrop-filter: transparent;
+    }
+
+    nav a {
+        background: transparent;
+        padding: 0.8rem;
+        border-radius: 50%;
+        display: flex;
+        color: var(--color-light);
+        font-size: 0.8rem;
+    }
+}
