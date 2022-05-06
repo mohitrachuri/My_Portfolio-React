@@ -18,7 +18,7 @@ const Projects = () => {
           <a href='https://github.com/mohitrachuri/My_Portfolio-React' className='btn' target='_blank'>GitHub</a>
         </article>
 
-        <article className='projects__item'>
+        {/* <article className='projects__item'>
           <div className='projects_item-image'>
             <img src={PortfolioPic} alt="" />
           </div>
@@ -56,7 +56,7 @@ const Projects = () => {
           </div>
           <h3> Proj 6 Title</h3>
           <a href='https://github.com' className='btn' target='_blank'>GitHub</a>
-        </article>
+        </article> */}
 
       </div>
     </section>

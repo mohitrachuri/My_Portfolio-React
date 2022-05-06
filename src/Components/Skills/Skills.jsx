@@ -56,7 +56,7 @@ const Skills = () => {
             <article className='skills__details'>
             <BsCodeSlash className='skills__details_icon'/>
             <div>
-              <h4>Sys Design</h4>
+              <h4>System Design</h4>
               <small className='text-light'>Advanced</small>
             </div>
             </article>
@@ -70,21 +70,21 @@ const Skills = () => {
             <article className='skills__details'>
             <MdWebAsset className='skills__details_icon'/>
             <div>
-              <h4>React-Native</h4>
+              <h4>React JS</h4>
               <small className='text-light'>Advanced</small>
             </div>
             </article>
             <article className='skills__details'>
             <MdWebAsset className='skills__details_icon'/>
             <div>
-              <h4>Vue Js</h4>
+              <h4>Vue JS</h4>
               <small className='text-light'>Advanced</small>
             </div>
             </article>
             <article className='skills__details'>
             <MdWebAsset className='skills__details_icon'/>
             <div>
-              <h4>HTML, CSS</h4>
+              <h4>HTML 5, CSS</h4>
               <small className='text-light'>Advanced</small>
             </div>
             </article>
@@ -98,7 +98,7 @@ const Skills = () => {
             <article className='skills__details'>
             <MdWebAsset className='skills__details_icon'/>
             <div>
-              <h4>Django</h4>
+              <h4>Flask</h4>
               <small className='text-light'>Advanced</small>
             </div>
             </article>
@@ -125,7 +125,7 @@ const Skills = () => {
             <article className='skills__details'>
             <BiPackage className='skills__details_icon'/>
             <div>
-              <h4>Pandas,Numpy</h4>
+              <h4>Pandas, Numpy</h4>
               <small className='text-light'>Advanced</small>
             </div>
             </article>
@@ -221,7 +221,7 @@ const Skills = () => {
             <article className='skills__details'>
             <AiOutlineBulb className='skills__details_icon'/>
             <div>
-              <h4>SpringBoot</h4>
+              <h4>Spring Boot</h4>
               <small className='text-light'>Advanced</small>
             </div>
             </article>

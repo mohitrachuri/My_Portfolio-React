@@ -17,7 +17,7 @@ const About = () => {
           <article className='about__card'>
             <BiBook className='about__Icon'/>
             <h5>Education</h5>
-            <small>Master's In Software Engineering</small>
+            <small>Currently pursuing Master's In Software Engineering</small>
           </article>
 
           <article className='about__card'>
@@ -29,19 +29,24 @@ const About = () => {
           <article className='about__card'>
             <SiMusicbrainz className='about__Icon'/>
             <h5>Skills</h5>
-            <small>Full Stack Development, Data Science, Machine Learning</small>
+            <small>Full Stack Development, Data Science, Deep Learning</small>
           </article>
 
           <article className='about__card'>
             <BiGitBranch className='about__Icon'/>
             <h5>Projects</h5>
-            <small>Research and Projects</small>
+            <small>An International Research Publication & 20+ Projects in various Domains</small>
           </article>
         </div>
-
+        
         <p>
-        My goal is to become a successful Data scientist by arriving at methodologies to help in understanding a given domain by mathematically modelling and implementing the same through software solutions using Machine learning methods. I wish to understand and implement these Artificial intelligence techniques in advanced Medical & Space research so that, one day, we can go where 'no man has gone before'.
-        I am also a Full Stack Developer, skilled in Object oriented programming (Python, Java, C/C++) as well as Database management & Web development.
+        📍I'm a Developer and Researcher with a drive to create innovative products.<br />
+        📍 Full Stack Developer, skilled in Object oriented programming as well as Database management & Containerization.<br />
+        📍 I come from a solid technical background which includes Back-End and Front-End Engineering, Core Operating Systems, Full Stack Web Dev<br />
+        📍 I wish to implement Artificial intelligence techniques in vast areas such as Software Development, Quantitative Finance, Blockchain and Quantum 
+          Computing, by arriving at methodologies to understand a given domain by mathematical modelling. <br />
+        📍 In my spare time, I read philosophy books, watch sci-fi series or movies and play e-sports.
+        
         </p>
 
         <a href='#Contact' className='btn btn-primary'>Let's Talk</a>

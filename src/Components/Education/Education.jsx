@@ -85,7 +85,7 @@ const Education = () => {
           </div>
             <h4 className='univ__name'>University Of Maryland</h4>
             <small className='univ__course'>Masters in Software Engineering</small>
-            <p className='univ__info'>I am currently pursuing my Maters.</p>
+            <p className='univ__info'>August 2021 - Present</p>
           </article>
         </SwiperSlide>
         
@@ -96,7 +96,7 @@ const Education = () => {
           </div>
             <h4 className='univ__name'>SRM University</h4>
             <small className='univ__course'>Bachelor's in Electronics and Communication Engineering</small>
-            <p className='univ__info'>I completed by bachelor's.</p>
+            <p className='univ__info'>August 2016 - May 2020</p>
             </article>
         </SwiperSlide>
       </Swiper>
