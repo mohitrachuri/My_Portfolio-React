@@ -109,25 +109,29 @@ const Experience = () => {
             <li>
               <BsDot className="Experience__list-icon" />
               <p>
-                Technologies worked on: Oracle - ADF,SOA,BPM / Java & JVM
-                Languages / REST SOAP Web Services.
+              Technologies worked on: Oracle - ADF, SOA, BPM / Java & JVM Languages / REST SOAP Web Services.
               </p>
             </li>
             <li>
               <BsDot className="Experience__list-icon" />
-              <p>Oracle Fusion Middleware Developer (OSB and BPEL)</p>
+              <p>Built & maintained various flows in a Banking System (Core Banking Transformation).</p>
             </li>
             <li>
               <BsDot className="Experience__list-icon" />
-              <p>Business Problem Analysis </p>
+              <p>Worked with Business Problem Analysis, Design Analysis, Agile Planning.</p>
             </li>
             <li>
               <BsDot className="Experience__list-icon" />
-              <p>Design Analysis (BPEL Orchestrations)</p>
+              <p>Coded the frontend using Oracle Tools (ADF) and backend internal flow using Bootstrap, JQuery.</p>
             </li>
             <li>
               <BsDot className="Experience__list-icon" />
-              <p>Agile Planning (With team and business management people)</p>
+              <p>Architected and Implemented Restful APIs using Node.JS, Connecting to Oracle Databases.</p>
+            </li>
+            <li>
+              <BsDot className="Experience__list-icon" />
+              <p>Fixed numerous bugs across the stack in Java Script, Business process Management. 
+                And created Spanner tables in order to optimize query times.</p>
             </li>
           </ul>
         </article>

@@ -85,7 +85,7 @@ const Education = () => {
           </div>
             <h4 className='univ__name'>University Of Maryland</h4>
             <small className='univ__course'>Masters in Software Engineering</small>
-            <p className='univ__info'>August 2021 - Present</p>
+            <p className='univ__info'>August 2021 - May 2023</p>
           </article>
         </SwiperSlide>
         
