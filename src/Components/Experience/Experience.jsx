@@ -35,7 +35,7 @@ const Experience = () => {
               <BsDot className="Experience__list-icon" />
               <p>
                 Built an Authentication and Authorization Module for Users of
-                the organization using Auth0.
+                the organization.
               </p>
             </li>
             {/* <li>

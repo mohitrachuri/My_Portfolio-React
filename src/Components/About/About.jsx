@@ -41,7 +41,8 @@ const About = () => {
         
         <p>
         ●	I'm a Developer and Researcher with a drive to create innovative products.<br />
-        ●	Full Stack Developer, skilled in Object oriented programming as well as Database management & Containerization.<br />
+        ●	I love to brainstorm on new ideas, problems and find Simple and Scalable solutions for them.<br />
+        {/* ●	Full Stack Developer, skilled in Object oriented programming as well as Database management & Containerization.<br /> */}
         ●	I come from a solid technical background which includes Back-End and Front-End Engineering, Core Operating Systems, Full Stack Web Development.<br />
         ●	I wish to implement Artificial intelligence techniques in vast areas such as Software Development, Quantitative Finance, Blockchain and Quantum 
           Computing, by arriving at methodologies to understand a given domain by mathematical modelling. <br />
