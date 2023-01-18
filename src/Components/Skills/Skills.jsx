@@ -146,7 +146,7 @@ const Skills = () => {
             <article className='skills__details'>
             <BiPackage className='skills__details_icon'/>
             <div>
-              <h4>OpenAI</h4>
+              <h4>SpringBoot</h4>
               <small className='text-light'>Intermediate</small>
             </div>
             </article>

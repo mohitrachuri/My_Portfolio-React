@@ -9,11 +9,48 @@ const Experience = () => {
       <h2>Work Experience</h2>
 
       <div className="container Experience__container">
+        {/*Start of UMD*/}
+        <article className="Experience">
+          <div className="Experience__head">
+            <h3>University of Maryland (AHX-PI)</h3>
+            <small>Software Engineer (October 2022 - Present)</small>
+          </div>
+          <ul className="Experience__list">
+            <li>
+              <BsDot className="Experience__list-icon" />
+              <p>
+              Built and deployed a full scale web application from scratch.
+              </p>
+            </li>
+            <li>
+              <BsDot className="Experience__list-icon" />
+              <p>
+              Integrated an existing server side application with a front end dashboard using React js, and rendered the server side application on front end.
+              </p>
+            </li>
+            <li>
+              <BsDot className="Experience__list-icon" />
+              <p>
+              Setted up the dns and deployed the application to the cloud. Created a way to make cloud deployments automatic for the deployed application.
+              </p>
+            </li>
+            {/* <li>
+              <BsDot className='Experience__list-icon'/>
+              <p>Work 4</p>
+            </li>
+            <li>
+              <BsDot className='Experience__list-icon'/>
+              <p>Work 5</p>
+            </li> */}
+          </ul>
+        </article>
+        {/*End of UMD */}
+
         {/*Start of MTI*/}
         <article className="Experience">
           <div className="Experience__head">
             <h3>Maryland Transportation Institute</h3>
-            <small>Web Developer (April 2022 - Present)</small>
+            <small>Web Developer (April 2022 - October 2022)</small>
           </div>
           <ul className="Experience__list">
             <li>
@@ -109,29 +146,45 @@ const Experience = () => {
             <li>
               <BsDot className="Experience__list-icon" />
               <p>
-              Technologies worked on: Oracle - ADF, SOA, BPM / Java & JVM Languages / REST SOAP Web Services.
+                Technologies worked on: Oracle - ADF, SOA, BPM / Java & JVM
+                Languages / REST SOAP Web Services.
               </p>
             </li>
             <li>
               <BsDot className="Experience__list-icon" />
-              <p>Built & maintained various flows in a Banking System (Core Banking Transformation).</p>
+              <p>
+                Built & maintained various flows in a Banking System (Core
+                Banking Transformation).
+              </p>
             </li>
             <li>
               <BsDot className="Experience__list-icon" />
-              <p>Worked with Business Problem Analysis, Design Analysis, Agile Planning.</p>
+              <p>
+                Worked with Business Problem Analysis, Design Analysis, Agile
+                Planning.
+              </p>
             </li>
             <li>
               <BsDot className="Experience__list-icon" />
-              <p>Coded the frontend using Oracle Tools (ADF) and backend internal flow using Bootstrap, JQuery.</p>
+              <p>
+                Coded the frontend using Oracle Tools (ADF) and backend internal
+                flow using Bootstrap, JQuery.
+              </p>
             </li>
             <li>
               <BsDot className="Experience__list-icon" />
-              <p>Architected and Implemented Restful APIs using Node.JS, Connecting to Oracle Databases.</p>
+              <p>
+                Architected and Implemented Restful APIs using Node.JS,
+                Connecting to Oracle Databases.
+              </p>
             </li>
             <li>
               <BsDot className="Experience__list-icon" />
-              <p>Fixed numerous bugs across the stack in Java Script, Business process Management. 
-                And created Spanner tables in order to optimize query times.</p>
+              <p>
+                Fixed numerous bugs across the stack in Java Script, Business
+                process Management. And created Spanner tables in order to
+                optimize query times.
+              </p>
             </li>
           </ul>
         </article>
@@ -141,29 +194,31 @@ const Experience = () => {
         <article className="Experience">
           <div className="Experience__head">
             <h3>The Climber</h3>
-            <small>Sales And Marketing Intern (May 2019 - Aug 2019)</small>
+            <small>Full Stack Software Engineer (Mar 2018 - May 2020)</small>
           </div>
           <ul className="Experience__list">
             <li>
               <BsDot className="Experience__list-icon" />
               <p>
-                Worked with a team of Marketers and strategists to develop new
-                ways to market the product and Increase Departmental Revenues.
+              Developed views with Python and Django view controllers and templating language to create user-friendly web interface.
               </p>
             </li>
             <li>
               <BsDot className="Experience__list-icon" />
               <p>
-                Increased repurchase by ~14% through lifestyle analysis, 3
-                pronged strategy.
+                Consumed messages from JMS driven beans and Active MQ. Integrated Active MQ services with Beans. Improved AngularJS Controllers to maintain each View data and Service calls using Angular Factory.
               </p>
             </li>
             <li>
               <BsDot className="Experience__list-icon" />
               <p>
-                Drove ~20% increase in lead capture by targeting previously
-                omitted site activity such as discount seeking and abandoning
-                cart.
+              Used AngularJS to create views to hook up models to the DOM and synchronize data with the server as a SPA. Expertise with employment of Spring Kafka and Zookeeper apart from JMS as messaging service.
+              </p>
+            </li>
+            <li>
+              <BsDot className="Experience__list-icon" />
+              <p>
+              Worked on Spring Core, Spring boot, Spring Security and Spring MVC architectures. Deployed the Application into Docker container and made easily accessible at runtime using Pivotal Cloud Foundry.
               </p>
             </li>
           </ul>
@@ -180,7 +235,9 @@ const Experience = () => {
             <li>
               <BsDot className="Experience__list-icon" />
               <p>
-              Produced Prototypes of Digital Scientific Calculators to Real-Time Users, and developed improvements based on User feedback.
+                Produced Prototypes of Digital Scientific Calculators to
+                Real-Time Users, and developed improvements based on User
+                feedback.
               </p>
             </li>
           </ul>

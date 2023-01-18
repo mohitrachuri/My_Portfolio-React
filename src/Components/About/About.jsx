@@ -17,19 +17,19 @@ const About = () => {
           <article className='about__card'>
             <BiBook className='about__Icon'/>
             <h5>Education</h5>
-            <small>Currently pursuing Master's In Software Engineering</small>
+            <small>Master's In Software Engineering</small>
           </article>
 
           <article className='about__card'>
             <MdWorkOutline className='about__Icon'/>
             <h5>Experience</h5>
-            <small>2+ Years Working</small>
+            <small>5+ Years Working</small>
           </article>
 
           <article className='about__card'>
             <SiMusicbrainz className='about__Icon'/>
             <h5>Skills</h5>
-            <small>Full Stack Development, Data Science, Deep Learning</small>
+            <small>Full Stack Development, Data Science</small>
           </article>
 
           <article className='about__card'>
